@@ -25,6 +25,7 @@ kotlin {
     
     sourceSets {
         val ktorVersion = "1.6.8"
+        val okhttpVersion = "4.9.3"
         val commonMain by getting {
             dependencies {
                 implementation("io.ktor:ktor-client-core:$ktorVersion")
@@ -39,6 +40,7 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("io.ktor:ktor-client-android:$ktorVersion")
+                implementation("com.squareup.okhttp3:okhttp:$okhttpVersion")
             }
         }
         val androidTest by getting
