@@ -1,5 +1,5 @@
 //
-//  ContentViewModel.swift
+//  PokemonListViewModel.swift
 //  iosApp
 //
 //  Created by Daniel Martínez on 6/4/22.
@@ -10,7 +10,7 @@ import Foundation
 import shared
 
 @MainActor
-class ContentViewModel: ObservableObject {
+class PokemonListViewModel: ObservableObject {
     
     enum State {
         case na

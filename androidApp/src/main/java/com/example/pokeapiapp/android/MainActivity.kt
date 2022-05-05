@@ -5,10 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.pokeapiapp.Pokemon
 import com.example.pokeapiapp.Pokemons
 import kotlinx.coroutines.*
-import java.lang.NullPointerException
 
 class MainActivity : AppCompatActivity() {
 
